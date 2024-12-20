@@ -13,8 +13,8 @@ It's aimed at making C++ windowing and GUI development easier.
 The NemoLib library can be obtained in multiple ways.
 #### releases
 You can download the library files from the [releases](https://github.com/TheNemoNemesis/nemolib/releases) page.
-Than extract the compresed archive and copy the files to the desired directory. 
-***EXAPMLE:*** 
+Than extract the compresed archive and copy the files to the desired directory.\
+***EXAMPLE:*** 
 ```bash
 tar -xvf nemolib_linux_x86-64.tar.gz --directory ./nemolib
 cp nemolib/include ~/includes/nemolib
@@ -22,7 +22,7 @@ cp nemolib/libnemolib.a ~/libs/libnemolib.a
 ```
 #### build
 You can also build the library from the source. The library requires for SDL3 and relative dependencies to be
-installed in your system. You would also need cmake and make to build the project with the CMakeLists.txt file. 
+installed in your system. You would also need cmake and make to build the project with the CMakeLists.txt file.\
 ***EXAMPLE:***
 ```bash
 git clone --recursive https://github.com/TheNemoNemesis/nemolib
