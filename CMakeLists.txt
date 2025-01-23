@@ -20,8 +20,7 @@ set(PROJECT_VERSION
 )
 message(STATUS "${PROJECT_NAME} version: ${PROJECT_VERSION}")
 
-# Export setup to lsp
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+# Imgui option
 option(NEMOLIB_IMGUI "Build library with imgui" ON)
 
 # Load files
