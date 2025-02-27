@@ -28,8 +28,8 @@ file(GLOB LIBSOURCES "src/*.cpp")
 file(GLOB IMGUISOURCES "imgui/*.cpp")
 file(GLOB LIBHEADERS "include/*.hpp")
 file(GLOB IMGUIHEADERS "imgui/*.h")
-set(HEADERS "${LIBHEADERS};${IMGUIHEADERS};imgui/backends/imgui_impl_sdl3.h;imgui/backends/imgui_impl_sdlrenderer3.h;imgui/backends/imgui_impl_opengl3.h")
-set(SOURCES "${LIBSOURCES};${IMGUISOURCES};imgui/backends/imgui_impl_sdl3.cpp;imgui/backends/imgui_impl_sdlrenderer3.cpp;imgui/backends/imgui_impl_opengl3.cpp")
+set(HEADERS "${LIBHEADERS};${IMGUIHEADERS};imgui/backends/imgui_impl_sdl3.h;imgui/backends/imgui_impl_sdlrenderer3.h;imgui/backends/imgui_impl_opengl3.h;imgui/misc/cpp/imgui_stdlib.h")
+set(SOURCES "${LIBSOURCES};${IMGUISOURCES};imgui/backends/imgui_impl_sdl3.cpp;imgui/backends/imgui_impl_sdlrenderer3.cpp;imgui/backends/imgui_impl_opengl3.cpp;imgui/misc/cpp/imgui_stdlib.cpp")
 
 # Add library
 if(NEMOLIB_IMGUI)
